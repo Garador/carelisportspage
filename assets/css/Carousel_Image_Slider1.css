@@ -3,16 +3,14 @@
 }
 
 .carousel-inner {
-  position:relative;
-  width:100%;
-  overflow:hidden;
+  height:auto;
 }
 
 .carousel-item {
   position:relative;
   display:none;
   align-items:center;
-  width:100%;
+  text-align:center;
   transition:transform 0.6s ease;
   backface-visibility:hidden;
   /*perspective:1000px;*/

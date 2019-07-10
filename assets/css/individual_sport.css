@@ -82,3 +82,15 @@
   width:95%;
 }
 
+@media (min-width: 300px) {
+  .carousel-column {
+    min-height:40vw;
+  }
+}
+
+@media (min-width: 768px) {
+  .carousel-column {
+    min-height:32vw;
+  }
+}
+
