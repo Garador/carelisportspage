@@ -2358,19 +2358,19 @@ var IndexRouteService = /** @class */ (function () {
     function IndexRouteService() {
     }
     IndexRouteService.prototype.getEventAvailabilityUrl = function (event) {
-        return "/Sports/" + event.sport.id + "/availability/" + event.id;
+        return "./Sports/" + event.sport.id + "/availability/" + event.id;
     };
     IndexRouteService.prototype.getTicketsUrl = function () {
-        return "/Tickets";
+        return "./Tickets";
     };
     IndexRouteService.prototype.getDisneyExperienceUrl = function () {
-        return "/Disney-Experience";
+        return "./Disney-Experience";
     };
     IndexRouteService.prototype.getEventBookingUrl = function (event) {
-        return "/Sports/" + event.sport.id + "/availability/" + event.id;
+        return "./Sports/" + event.sport.id + "/availability/" + event.id;
     };
     IndexRouteService.prototype.getSportsMainPageUrl = function (sport) {
-        return "/Sports/" + sport.id;
+        return "./Sports/" + sport.id;
     };
     IndexRouteService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])({
